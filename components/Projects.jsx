@@ -42,6 +42,19 @@ const Projects = () => {
       ],
       link: 'https://github.com/leozanidev/job-board',
     },
+    {
+      name: 'Agendômetro',
+      description:
+        'Gerenciador de eventos acadêmicos, seguindo o manual de marca da UVV. Conta com autenticação via Supabase, CRUD completo de eventos, visualização em lista e calendário, e filtros por dia, semana, mês e ano. Desenvolvido com Appsmith e Supabase, com funções em JavaScript e consultas SQL. Projeto em desenvolvimento.',
+      image: '/images/agendometro.png',
+      stack: [
+        'devicon-postgresql-plain colored',
+        'devicon-html5-plain colored',
+        'devicon-css3-plain colored',
+        'devicon-javascript-plain colored',
+      ],
+      link: 'https://faunabrasileirinhas.appsmith.com/app/agendometro/',
+    },
   ]
   return (
     <section id="projects" className={styles.projectsSection}>

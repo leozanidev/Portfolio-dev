@@ -20,8 +20,8 @@
 }
 
 .imageContainer {
-  width: 90%;
-  height: 90%;
+  width: 40%;
+  height: 40%;
   padding: 1rem;
   border-right: 2px solid var(--action-color);
 }
@@ -37,6 +37,7 @@
   flex-direction: column;
   gap: 1rem;
   margin-left: 1rem;
+  width: 60%;
 }
 
 .textContainer h3 {
@@ -72,10 +73,11 @@
   border-left: 2px solid var(--action-color);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .projectsContainer {
     width: 80%;
   }
+
   .project {
     flex-direction: column;
   }
