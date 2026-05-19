@@ -65,3 +65,9 @@ footer {
   background-color: var(--highlightBg-color);
   height: 5rem;
 }
+
+@media (max-width: 390px) {
+  footer p {
+    font-size: 12px;
+  }
+}

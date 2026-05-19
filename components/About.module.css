@@ -29,9 +29,16 @@
   padding: 1rem;
 }
 
-@media (max-width: 768px) {
-  
+@media (max-width: 768px) and (min-width: 391px) {
   .aboutText {
     font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .aboutText {
+    padding: 0rem;
+    padding-left: 1rem;
+    font-size: 0.6rem;
   }
 }

@@ -33,10 +33,16 @@
   color: var(--secondaryText-color);
 }
 
-
-@media(max-width: 768px) {
+@media (max-width: 768px) and (min-width: 391px) {
   .gridSection {
     grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .gridSection {
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
   }
 }
