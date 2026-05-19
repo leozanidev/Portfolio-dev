@@ -12,7 +12,7 @@ const Skills = () => {
     { name: 'GIT', icon: 'devicon-git-plain' },
   ]
   return (
-    <section className={styles.skillsSection}>
+    <section id="skills" className={styles.skillsSection}>
       <h2>Tecnologias</h2>
       <div className={styles.gridSection}>
         {techs.map((tech) => {

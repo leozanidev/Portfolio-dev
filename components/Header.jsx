@@ -56,10 +56,10 @@ const Header = () => {
       </div>
       <div className={styles.navigationSection}>
         <div className={styles.goToSection}>
-          <a>Sobre</a>
-          <a>Skills</a>
-          <a>Projetos</a>
-          <a>Contato</a>
+          <a href="#about">Sobre</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projetos</a>
+          <a href="#contact">Contato</a>
         </div>
       </div>
     </header>

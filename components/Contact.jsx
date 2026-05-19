@@ -3,7 +3,7 @@ import { FaEnvelope } from 'react-icons/fa'
 
 const Contact = () => {
   return (
-    <section className={styles.contactSection}>
+    <section id="contact" className={styles.contactSection}>
       <div className={styles.contactHeader}>
         <h2>Vamos conversar</h2>
         <p className={styles.contactTagline}>

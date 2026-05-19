@@ -32,3 +32,11 @@
   font: var(--normalText-font);
   color: var(--secondaryText-color);
 }
+
+
+@media(max-width: 768px) {
+  .gridSection {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+}

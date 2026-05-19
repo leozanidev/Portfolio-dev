@@ -19,6 +19,28 @@
   --btnText-font: 500 0.8rem 'DM Sans', sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+  height: 100%;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--highlightBg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--action-color);
+  border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  cursor: grab;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--mainBg-color);
 }

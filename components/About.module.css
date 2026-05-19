@@ -28,3 +28,10 @@
   justify-content: left;
   padding: 1rem;
 }
+
+@media (max-width: 768px) {
+  
+  .aboutText {
+    font-size: 0.7rem;
+  }
+}

@@ -38,12 +38,13 @@ const Projects = () => {
         'devicon-javascript-plain colored',
         'devicon-react-original colored',
         'devicon-typescript-plain colored',
+        'devicon-tailwindcss-original colored',
       ],
       link: 'https://github.com/leozanidev/job-board',
     },
   ]
   return (
-    <section className={styles.projectsSection}>
+    <section id="projects" className={styles.projectsSection}>
       <h2>Projetos</h2>
       <div className={styles.projectsContainer}>
         {projects.map((project, i) => {

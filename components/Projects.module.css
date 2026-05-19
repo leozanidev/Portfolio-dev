@@ -9,7 +9,7 @@
   flex-direction: column;
   margin: 0 auto;
   gap: 2rem;
-  width: 50%;
+  width: 70%;
 }
 
 .project {
@@ -70,4 +70,28 @@
 .oddProjectImageContainer {
   border-right: none;
   border-left: 2px solid var(--action-color);
+}
+
+@media (max-width: 768px) {
+  .projectsContainer {
+    width: 80%;
+  }
+  .project {
+    flex-direction: column;
+  }
+
+  .imageContainer {
+    width: 100%;
+    border-right: none;
+    border-bottom: 2px solid var(--action-color);
+    margin-bottom: 1rem;
+  }
+
+  .textContainer {
+    width: 100%;
+  }
+
+  .oddProjectImageContainer {
+    border-left: none;
+  }
 }
