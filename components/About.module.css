@@ -1,0 +1,30 @@
+.aboutMeSection {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  background-color: var(--highlightBg-color);
+  margin-top: 4rem;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px var(--highlightBg-color);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutTitle {
+  font: var(--sectionTitle-font);
+  color: var(--mainText-color);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.aboutText {
+  border-left: 2px solid var(--action-color);
+  width: 90%;
+  justify-content: left;
+  padding: 1rem;
+}

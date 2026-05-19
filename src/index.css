@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --mainBg-color: #0d0d14;
+  --highlightBg-color: #111827;
+  --action-color: #2563eb;
+  --mainText-color: #f9f9f9;
+  --secondaryText-color: #a0a0b0;
+
+  --mainTitle-font: 800 4rem 'Syne', sans-serif;
+  --sectionTitle-font: 700 2rem 'Syne', sans-serif;
+  --tertiaryTitle-font: 700 1.5rem 'Syne', sans-serif;
+  --tagline-font: 400 1.1rem 'DM Sans', sans-serif;
+  --normalText-font: 400 1rem 'DM Sans', sans-serif;
+  --btnText-font: 500 0.8rem 'DM Sans', sans-serif;
+}
+
+body {
+  background-color: var(--mainBg-color);
+}
+
+h2 {
+  font: var(--sectionTitle-font);
+  color: var(--mainText-color);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+p {
+  color: var(--secondaryText-color);
+  font: var(--normalText-font);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  background-color: var(--highlightBg-color);
+  height: 5rem;
+}
