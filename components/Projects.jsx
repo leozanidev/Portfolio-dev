@@ -6,7 +6,7 @@ const Projects = () => {
       name: 'To Do List Simples',
       description:
         'Aplicação de gerenciamento de tarefas com criação, edição, exclusão, busca com filtro e persistência via localStorage. Desenvolvida com HTML, CSS e JavaScript puro.',
-      image: '../images/todolist.png',
+      image: '/images/todolist.png',
       stack: [
         'devicon-html5-plain colored',
         'devicon-css3-plain colored',
@@ -18,7 +18,7 @@ const Projects = () => {
       name: 'Habit Tracker',
       description:
         'Aplicação para acompanhamento de hábitos diários com visualização em gráfico, sistema de streak e custom hooks. Desenvolvida com React, CSS Modules e JSON Server.',
-      image: '../images/habittracker.png',
+      image: '/images/habittracker.png',
       stack: [
         'devicon-html5-plain colored',
         'devicon-css3-plain colored',
@@ -31,7 +31,7 @@ const Projects = () => {
       name: 'Job Board',
       description:
         'Aplicação que consome uma API real de vagas de emprego com busca por filtros e navegação entre páginas. Desenvolvida com React, TypeScript e Tailwind CSS.',
-      image: '../images/jobboard.png',
+      image: '/images/jobboard.png',
       stack: [
         'devicon-html5-plain colored',
         'devicon-css3-plain colored',
