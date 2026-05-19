@@ -15,6 +15,12 @@ const Contact = () => {
           <a href="mailto:leonardozanidev@gmail.com">
             <FaEnvelope /> leonardozanidev@gmail.com
           </a>
+          <a
+            href="\CV_Leonardo_Zani_Final.pdf"
+            download={true}
+          >
+            Baixe meu currículo.
+          </a>
         </div>
       </div>
     </section>

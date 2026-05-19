@@ -13,6 +13,8 @@
 .mail {
   margin-top: 0.5rem;
   color: var(--secondaryText-color);
+  justify-items: center;
+  font: var(--normalText-font);
 }
 
 .mail a {
@@ -21,6 +23,7 @@
   display: flex;
   align-items: center;
   gap: 0.2rem;
+  margin: 0.3rem;
 }
 
 .mail a:hover {
