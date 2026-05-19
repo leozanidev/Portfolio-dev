@@ -49,7 +49,7 @@ const Projects = () => {
         {projects.map((project, i) => {
           if (i % 2 === 0) {
             return (
-              <div className={styles.project}>
+              <div key={project.name} className={styles.project}>
                 <div className={styles.imageContainer}>
                   <img src={project.image} alt="Print do projeto" />
                 </div>
@@ -63,8 +63,8 @@ const Projects = () => {
                     </a>
                   </p>
                   <div className={styles.stacks}>
-                    {project.stack.map((stack) => (
-                      <i className={stack}></i>
+                    {project.stack.map((stack, i) => (
+                      <i key={i} className={stack}></i>
                     ))}
                   </div>
                 </div>
@@ -72,8 +72,13 @@ const Projects = () => {
             )
           } else {
             return (
-              <div className={`${styles.project} ${styles.oddProject}`}>
-                <div className={`${styles.imageContainer} ${styles.oddProjectImageContainer}`}>
+              <div
+                key={project.name}
+                className={`${styles.project} ${styles.oddProject}`}
+              >
+                <div
+                  className={`${styles.imageContainer} ${styles.oddProjectImageContainer}`}
+                >
                   <img src={project.image} alt="Print do projeto" />
                 </div>
                 <div className={styles.textContainer}>
